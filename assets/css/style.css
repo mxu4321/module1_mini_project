@@ -1,15 +1,25 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    margin: 0;
+    padding: 0;
 }
 
-
+body {
+    background-color: rgb(235, 213, 149);
+}
 header {
     text-align: right;
     line-height: 50px;
     background-color: rgb(43, 92, 71);
 }
-
+h1,h2 {
+    position: relative;
+    top: 5px;
+    text-align: center;
+    margin: 10px;
+    color: brown; 
+    /* other way to change the color */
+}
 a {
     color: white;
     margin: 10px;
@@ -21,18 +31,72 @@ a {
 } */
 
 .section1 {
-    background-color: rgb(235, 213, 149);
+    background-color: white;
     height: 500px;
+    display: block;
 }
-
-h1 {
+img {
     position: relative;
-    top: 5px;
-    text-align: center;
-    background-color: rgb(235, 213, 149); 
-    /* other way to change the color */
+    left: 35%;
 }
+p {
+    text-align: center;
+    margin: 10px;
+}
+/* .form {
+    position: relative;
+    left: 40%;
+    border: 5px solid brown;
+    height: 400px;
+    width: 800px;
+    border-radius: 2%;
+} */
+.form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #DDAF94;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+
+  input, 
+  textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+  
+#sumbit {
+    height: 40px;
+    width: 120px;
+    background-color: brown;
+    color: white;
+    margin: 0px auto;
+    
+}
+.center-button {
+    text-align: center;
+}
+/* .form {
+    postion: relative;
+    left: 40%
+} */
+
 
 footer {
     background-color: rgb(43, 92, 71);
+    color: white;
+    line-height: 50px; 
+    text-align: center;
 }
