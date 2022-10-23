@@ -1,0 +1,38 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+
+header {
+    text-align: right;
+    line-height: 50px;
+    background-color: rgb(43, 92, 71);
+}
+
+a {
+    color: white;
+    margin: 10px;
+}
+
+/* hr {
+    border: 5px solid rgb(239, 220, 163);
+
+} */
+
+.section1 {
+    background-color: rgb(235, 213, 149);
+    height: 500px;
+}
+
+h1 {
+    position: relative;
+    top: 5px;
+    text-align: center;
+    background-color: rgb(235, 213, 149); 
+    /* other way to change the color */
+}
+
+footer {
+    background-color: rgb(43, 92, 71);
+}
